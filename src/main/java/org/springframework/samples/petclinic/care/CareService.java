@@ -32,7 +32,7 @@ public class CareService {
     }
 
     public List<CareProvision> getAllCaresProvided(){
-        return null;
+        return cpr.findAll();
     }
 
     public List<CareProvision> getCaresProvidedInVisitById(Integer visitId){
